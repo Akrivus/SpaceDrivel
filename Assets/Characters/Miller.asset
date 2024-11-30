@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cfe3f3b46da5314c81efe5fa3e1b95f, type: 3}
+  m_Name: Miller
+  m_EditorClassIdentifier: 
+  Title: Miller
+  Pronouns: he/him
+  Name: Miller
+  Aliases:
+  - Miller
+  Voice: onyx
+  Prompt: {fileID: 4900000, guid: 2bf23eaa8c9d68d4a8e5357b643f7d98, type: 3}
+  Prefab: {fileID: 2097218518506964186, guid: 3cde8477ad9353e499cc8b7ea4aa8c6c, type: 3}
+  SpeakingRate: 0
+  Pitch: 0
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  DefaultSentiment: {fileID: 0}

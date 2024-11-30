@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cfe3f3b46da5314c81efe5fa3e1b95f, type: 3}
+  m_Name: Celeste
+  m_EditorClassIdentifier: 
+  Title: Celeste
+  Pronouns: she/her
+  Name: Celeste
+  Aliases:
+  - Celeste
+  Voice: alloy
+  Prompt: {fileID: 4900000, guid: cb0532a14d1ee434ca8a2c1b0d8c76b4, type: 3}
+  Prefab: {fileID: 2097218518506964186, guid: 4800e8121cad0c5478c692b7858fc0f3, type: 3}
+  SpeakingRate: 0
+  Pitch: 0
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  DefaultSentiment: {fileID: 0}
