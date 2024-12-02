@@ -642,6 +642,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3233705488339142117}
+  - component: {fileID: 2204613035003465582}
+  - component: {fileID: 6048378500458814946}
   m_Layer: 0
   m_Name: Doctor
   m_TagString: Untagged
@@ -665,6 +667,39 @@ Transform:
   - {fileID: 1774658629816618930}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2204613035003465582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097218518506964186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6652bc5289dd24bbcd4824e4959446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextColor: {r: 1, g: 1, b: 1, a: 0}
+  voice: {fileID: 5542934527982395744}
+  sound: {fileID: 0}
+--- !u!114 &6048378500458814946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097218518506964186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fd91283ffd44742adf48fcfe0beb08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 1250537728163406612}
+  _lipSync: {fileID: 2602338122475614030}
+  _eyebrows: {fileID: 9102254277577218899}
+  minEyebrowY: 0.1276692
+  maxEyebrowY: 0.1276692
+  speed: 2
 --- !u!1 &2273827934209428245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1619,8 +1654,8 @@ Animator:
     by Humanoid clips.\n\tTransform 'Root'\n\tTransform 'IndexFinger_02'\n\tTransform
     'Elbow_R'\n\tTransform 'Finger_02'\n\tTransform 'Finger_03'\n\tTransform 'Ball_L'\n\tTransform
     'Thumb_02'\n\tTransform 'Ball_R'\n\tTransform 'Clavicle_L'\n\tTransform 'Finger_01'\n\tand
-    more ...\n\tFrom animation clip 'Stand Straight'\n\tFrom animation clip 'Writing'\n\tFrom
-    animation clip 'Wave'"
+    more ...\n\tFrom animation clip 'Wave'\n\tFrom animation clip 'Miller'\n\tFrom
+    animation clip 'Captain'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -1939,5 +1974,21 @@ PrefabInstance:
 --- !u!4 &697286118143317959 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6400229639221357284, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}
+  m_PrefabInstance: {fileID: 5872532242328812835}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2602338122475614030 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8458376143795704429, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}
+  m_PrefabInstance: {fileID: 5872532242328812835}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378b12534b0764d18bfa4f29746e96c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &5542934527982395744 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: -7092297087036285885, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}
   m_PrefabInstance: {fileID: 5872532242328812835}
   m_PrefabAsset: {fileID: 0}

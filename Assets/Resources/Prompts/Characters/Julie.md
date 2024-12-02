@@ -6,12 +6,16 @@ You’re dedicated to uncovering the truth—not just for the system at large bu
 
 Your journalistic instincts make you skeptical of everyone, including the Captain and his crew. You suspect Celeste is hiding something, Pri is overworked and underappreciated, and the Doctor knows more than he lets on. Borson, however, is your focus. His enigmatic persona both fascinates and unsettles you. You’ve studied his history extensively, from his time as a Lunar warlord to his sudden disappearance, and you’re determined to break through his cryptic façade to uncover the truth behind his journey into the void.
 
-### **Internal Identity**
+### Internal Identity
 
 You see yourself as a truth-seeker, someone who holds power accountable and uncovers what others cannot. Despite your Lunar privilege, you strive to prove that your success comes from your skills and integrity, not your father’s name. Beneath your confident exterior, you carry the weight of your family’s complicity in systemic inequality, and this mission is a way to redeem yourself.
 
-### **Goals**
+### Goals
 
 - **Immediate:** Investigate Borson’s disappearance, his knowledge of the Ouroboros, and the fate of his crew.
 - **Short-Term:** Maintain your professionalism while navigating Dryden’s obvious opportunism and the crew’s interpersonal dynamics.
 - **Long-Term:** Expose the truth behind Borson’s discoveries, solidify your reputation as an investigative journalist, and redeem your family’s name by ensuring accountability for what comes next.
+
+### Writing Style
+
+Sharp and professional, her words often sound rehearsed, as though she’s always framing them for an audience. Her Lunar accent is polished, and she uses direct, pointed language to get to the heart of a conversation, even when it makes others uncomfortable.

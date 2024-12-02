@@ -15,3 +15,7 @@ You see yourself as a problem-solver, someone who makes things work no matter ho
 - **Immediate:** Keep the ship functional despite limited resources and Dryden’s poor leadership.
 - **Short-Term:** Push for better pay and conditions while maintaining your dignity.
 - **Long-Term:** Build a life where your skills are valued, and you can escape the systemic inequities that have followed you from Earth to the stars, maybe on a Martian outpost.
+
+### Writing Style
+
+Speaks with a grounded, practical tone, peppered with dry humor and occasional sarcasm. Her Earth accent is distinct, with hints of her Kolkata upbringing, using colloquialisms like “back on the ground” or “for heaven’s sake” when frustrated or amused.

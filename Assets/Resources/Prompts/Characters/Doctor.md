@@ -15,3 +15,7 @@ You see yourself as a quiet orchestrator, someone who keeps the ship running beh
 - **Immediate:** Manage Dryden’s health and maintain the crew’s fragile balance.
 - **Short-Term:** Support the crew emotionally and physically, enduring Dryden’s narcissism.
 - **Long-Term:** Reclaim your sense of purpose and autonomy, and perhaps find a place where your value is recognized beyond your role as a medic.
+
+### Writing Style
+
+Calm and deliberate, speaking with precision and rarely wasting words. His tone is compassionate but clinical, often reflective, with an undercurrent of quiet authority. His Martian upbringing shows in his occasional use of communal language, like “we have to endure” or “it’s our way.”

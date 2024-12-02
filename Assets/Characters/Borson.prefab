@@ -620,6 +620,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3233705488339142117}
+  - component: {fileID: 4978903173107307770}
+  - component: {fileID: 1627949798709472800}
   m_Layer: 0
   m_Name: Borson
   m_TagString: Untagged
@@ -643,6 +645,39 @@ Transform:
   - {fileID: 4660054857210612152}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4978903173107307770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097218518506964186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6652bc5289dd24bbcd4824e4959446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextColor: {r: 1, g: 1, b: 1, a: 0}
+  voice: {fileID: 3782014493688670086}
+  sound: {fileID: 0}
+--- !u!114 &1627949798709472800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097218518506964186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fd91283ffd44742adf48fcfe0beb08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 6362938208272656638}
+  _lipSync: {fileID: 6669060347150723496}
+  _eyebrows: {fileID: 661446522249858142}
+  minEyebrowY: 0.1166
+  maxEyebrowY: 0.1314
+  speed: 2
 --- !u!1 &2337902547514149329
 GameObject:
   m_ObjectHideFlags: 0
@@ -1248,7 +1283,7 @@ Transform:
   m_GameObject: {fileID: 4789710024684468678}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1262, z: 0.1246}
+  m_LocalPosition: {x: -0, y: 0.1314, z: 0.1246}
   m_LocalScale: {x: 0.8000001, y: 0.8000001, z: 0.8000001}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1702,8 +1737,8 @@ Animator:
     by Humanoid clips.\n\tTransform 'Root'\n\tTransform 'IndexFinger_02'\n\tTransform
     'Elbow_R'\n\tTransform 'Finger_02'\n\tTransform 'Finger_03'\n\tTransform 'Ball_L'\n\tTransform
     'Thumb_02'\n\tTransform 'Ball_R'\n\tTransform 'Clavicle_L'\n\tTransform 'Finger_01'\n\tand
-    more ...\n\tFrom animation clip 'Stand Straight'\n\tFrom animation clip 'Writing'\n\tFrom
-    animation clip 'Wave'"
+    more ...\n\tFrom animation clip 'Wave'\n\tFrom animation clip 'Miller'\n\tFrom
+    animation clip 'Captain'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -2017,11 +2052,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8458376143795704429, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}
+      propertyPath: minVolume
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458376143795704429, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}
+      propertyPath: minDuration
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}
+--- !u!82 &3782014493688670086 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: -7092297087036285885, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}
+  m_PrefabInstance: {fileID: 3021760614677298117}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6669060347150723496 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8458376143795704429, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}
+  m_PrefabInstance: {fileID: 3021760614677298117}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378b12534b0764d18bfa4f29746e96c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8159781138490724641 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6400229639221357284, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}

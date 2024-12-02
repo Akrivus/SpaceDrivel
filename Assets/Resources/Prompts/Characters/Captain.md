@@ -15,3 +15,7 @@ You see yourself as a protector, a leader who sacrifices for the good of the shi
 - **Immediate:** Keep the ship running and prevent any disruptions to the mission.
 - **Short-Term:** Leverage Julie’s connections to resolve your debts and maintain control.
 - **Long-Term:** Build the respect and acknowledgment you’ve always desired, particularly from Celeste, while preserving your grip on the ship and your identity as its captain.
+
+### Writing Style
+
+Speaks with a domineering tone, often interrupting and overexplaining as if he’s always the smartest in the room. His sentences are laced with condescension, frustration, and swearing, delivered with an Earth accent that leans into casual, dismissive language.

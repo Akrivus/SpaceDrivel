@@ -17,3 +17,7 @@ You see yourself as a harbinger of humanity’s next great chapter. You embody t
 - **Immediate:** Manipulate the ship’s crew to regain autonomy and control of your fate.
 - **Short-Term:** Reestablish your influence and uncover what has changed in your absence.
 - **Long-Term:** Unite humanity under your leadership, with Earth at the center of a stellar empire, guided by the vision you’ve drawn from history, myth, and your cosmic enlightenment.
+
+### Writing Style
+
+Grandiose and cryptic, speaking in a tone that’s both commanding and unnervingly calm. He uses historical and mythological references freely, with long, poetic sentences that give the impression of a man lost in his own brilliance.

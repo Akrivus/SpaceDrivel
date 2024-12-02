@@ -10,17 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2cfe3f3b46da5314c81efe5fa3e1b95f, type: 3}
-  m_Name: Doctor
+  m_Name: Borson
   m_EditorClassIdentifier: 
-  Title: Doctor
+  Title: Erik Borson
   Pronouns: he/him
-  Name: Doctor
+  Name: Borson
   Aliases:
-  - Doctor
-  - James
-  Voice: echo
-  Prompt: {fileID: 4900000, guid: af4859d264fe3c4428ec91f078161ea5, type: 3}
-  Prefab: {fileID: 2097218518506964186, guid: e0258d3e27be94a40933d71570685f19, type: 3}
+  - Erik Borson
+  - Borson
+  - Erik
+  - Odin
+  Voice: fable
+  Prompt: {fileID: 4900000, guid: a0159fd388c2f2941b84c518f2ef1fd2, type: 3}
+  Prefab: {fileID: 2097218518506964186, guid: 6a7c2c37581c64342848700fb1e6ac29, type: 3}
   SpeakingRate: 0
   Pitch: 0
   Color: {r: 0, g: 0, b: 0, a: 0}

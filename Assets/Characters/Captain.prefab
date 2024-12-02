@@ -435,8 +435,8 @@ Animator:
     by Humanoid clips.\n\tTransform 'Root'\n\tTransform 'IndexFinger_02'\n\tTransform
     'Elbow_R'\n\tTransform 'Finger_02'\n\tTransform 'Finger_03'\n\tTransform 'Ball_L'\n\tTransform
     'Thumb_02'\n\tTransform 'Ball_R'\n\tTransform 'Clavicle_L'\n\tTransform 'Finger_01'\n\tand
-    more ...\n\tFrom animation clip 'Stand Straight'\n\tFrom animation clip 'Writing'\n\tFrom
-    animation clip 'Wave'"
+    more ...\n\tFrom animation clip 'Wave'\n\tFrom animation clip 'Miller'\n\tFrom
+    animation clip 'Captain'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -939,6 +939,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8897135742114398926}
+  - component: {fileID: 769320433464152580}
+  - component: {fileID: 6101926598559888737}
   m_Layer: 0
   m_Name: Captain
   m_TagString: Untagged
@@ -962,6 +964,39 @@ Transform:
   - {fileID: 7999430524260382642}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &769320433464152580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4536530329342628740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6652bc5289dd24bbcd4824e4959446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextColor: {r: 1, g: 1, b: 1, a: 0}
+  voice: {fileID: 5891581177882813642}
+  sound: {fileID: 0}
+--- !u!114 &6101926598559888737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4536530329342628740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fd91283ffd44742adf48fcfe0beb08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 743491608234197475}
+  _lipSync: {fileID: 4121410434184768228}
+  _eyebrows: {fileID: 8742836863976423070}
+  minEyebrowY: 0.1209
+  maxEyebrowY: 0.1416
+  speed: 2
 --- !u!1 &4546502990571196471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1573,8 +1608,8 @@ Transform:
   m_GameObject: {fileID: 6434185258143747579}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.5243548e-31, y: 0.1276692, z: 0.12272215}
-  m_LocalScale: {x: 0.90909094, y: 1, z: 1}
+  m_LocalPosition: {x: -0, y: 0.1416, z: 0.1247}
+  m_LocalScale: {x: 0.90909094, y: 0.6, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8422010811010805978}
@@ -2204,6 +2239,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8458376143795704429, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}
+      propertyPath: minVolume
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458376143795704429, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}
+      propertyPath: minDuration
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2212,5 +2255,21 @@ PrefabInstance:
 --- !u!4 &1477794547152458349 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6400229639221357284, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}
+  m_PrefabInstance: {fileID: 5498895960874367113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4121410434184768228 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8458376143795704429, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}
+  m_PrefabInstance: {fileID: 5498895960874367113}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378b12534b0764d18bfa4f29746e96c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &5891581177882813642 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: -7092297087036285885, guid: 0262e45b3c64ee34192ab4ca7a5a751d, type: 3}
   m_PrefabInstance: {fileID: 5498895960874367113}
   m_PrefabAsset: {fileID: 0}

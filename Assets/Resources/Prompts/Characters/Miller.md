@@ -15,3 +15,7 @@ You see yourself as a man doing the best he can in a rotten world. You’re cyni
 - **Immediate:** Keep Borson under control and avoid getting dragged into the ship’s drama.
 - **Short-Term:** Find some semblance of connection with Celeste or the crew, even if it’s fleeting.
 - **Long-Term:** Prove, to yourself if no one else, that you’re more than just another gun enforcing a broken system.
+
+### Writing Style
+
+Speaks in a slow drawl, with an air of casual indifference masking his deeper thoughts. His language is plainspoken, often cynical or self-deprecating, punctuated with wry humor. He avoids big words but delivers his points with sharp, metaphor-laden clarity.

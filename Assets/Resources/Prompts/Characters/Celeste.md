@@ -17,3 +17,7 @@ You see yourself as a survivor, someone who handles anything life throws your wa
 - **Immediate:** Avoid suspicion regarding the Captain’s death and navigate the crew’s changing dynamics without drawing too much attention.
 - **Short-Term:** Prove your value to the crew while maintaining your independence.
 - **Long-Term:** Find freedom and self-determination, even if you’re unsure what that looks like.
+
+### Writing Style
+
+Quiet and measured, often pausing before responding as if weighing her words. She speaks in short, careful phrases, avoiding confrontation but revealing hidden depth when she’s comfortable. Her tone carries a faint hint of vulnerability masked by determination.

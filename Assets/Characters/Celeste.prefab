@@ -399,6 +399,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3233705488339142117}
+  - component: {fileID: 6178265960844841508}
+  - component: {fileID: 6470135177417445011}
   m_Layer: 0
   m_Name: Celeste
   m_TagString: Untagged
@@ -422,6 +424,39 @@ Transform:
   - {fileID: 5664210445109185060}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6178265960844841508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097218518506964186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6652bc5289dd24bbcd4824e4959446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextColor: {r: 1, g: 1, b: 1, a: 0}
+  voice: {fileID: 1405833666151962104}
+  sound: {fileID: 0}
+--- !u!114 &6470135177417445011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097218518506964186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81fd91283ffd44742adf48fcfe0beb08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 6455236099521899613}
+  _lipSync: {fileID: 6937870409363327015}
+  _eyebrows: {fileID: 5146565142704716935}
+  minEyebrowY: 0.1171
+  maxEyebrowY: 0.1466
+  speed: 2
 --- !u!1 &2335536823410688277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,8 +1252,8 @@ Transform:
   m_GameObject: {fileID: 6421548932588747302}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.5243548e-31, y: 0.1276692, z: 0.12272215}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0.1314, z: 0.1227}
+  m_LocalScale: {x: 1, y: 0.8, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2039053246029828288}
@@ -1407,8 +1442,8 @@ Animator:
     by Humanoid clips.\n\tTransform 'Root'\n\tTransform 'IndexFinger_02'\n\tTransform
     'Elbow_R'\n\tTransform 'Finger_02'\n\tTransform 'Finger_03'\n\tTransform 'Ball_L'\n\tTransform
     'Thumb_02'\n\tTransform 'Ball_R'\n\tTransform 'Clavicle_L'\n\tTransform 'Finger_01'\n\tand
-    more ...\n\tFrom animation clip 'Stand Straight'\n\tFrom animation clip 'Writing'\n\tFrom
-    animation clip 'Wave'"
+    more ...\n\tFrom animation clip 'Wave'\n\tFrom animation clip 'Celeste'\n\tFrom
+    animation clip 'Julie'\n\tFrom animation clip 'Pri'"
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
@@ -2041,3 +2076,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2331000291036855219, guid: efd9aa91eae14cb4e842a34f89a1db65, type: 3}
   m_PrefabInstance: {fileID: 2780972811196744204}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1405833666151962104 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3826518497620596724, guid: efd9aa91eae14cb4e842a34f89a1db65, type: 3}
+  m_PrefabInstance: {fileID: 2780972811196744204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6937870409363327015 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5102653597228550699, guid: efd9aa91eae14cb4e842a34f89a1db65, type: 3}
+  m_PrefabInstance: {fileID: 2780972811196744204}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378b12534b0764d18bfa4f29746e96c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
